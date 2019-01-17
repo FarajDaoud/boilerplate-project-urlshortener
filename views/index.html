@@ -20,28 +20,28 @@
           <li>When I visit the shortened URL, it will redirect me to my original link.</li>
         </ol>
         
-        <h3>Short URL Creation </h3>
-        <p>
-          example: <code>POST [project_url]/api/shorturl/new</code> - <code>https://www.google.com</code>
-        </p>
-        <form action="api/shorturl/new" method="POST">
-          <label for="url_input">URL to be shortened</label>
-          <input id="url_input" type="text" name="url" value="https://www.freecodecamp.com">
-          <input type="submit" value="POST URL">
-        </form>
-        <h3>Example Usage:</h3>
-        <a href="https://thread-paper.hyperdev.space/api/shorturl/3">
-          [this_project_url]/api/shorturl/3
+        <h3>Example</h3>
+        <a href="https://farajdaoud-url-shortener.glitch.me/api/shorturl/HpxzD4wJr" target="_blank">
+          https://farajdaoud-url-shortener.glitch.me/api/shorturl/HpxzD4wJr
         </a>
 
         <h3>Will Redirect to:</h3>
         <p>https://forum.freecodecamp.com</p>
+        
+        <h3>Create A Short URL</h3>
+        <label for="urlUserInput">URL to be shortened</label>
+        <input id="urlUserInput" type="text" name="userURL" value="freecodecamp.com">
+        <input id="submitURL" type="submit" value="Submit">
+        <p id="invalidURL">The provided url is invalid</p>
+        <p id="linkContainer">New Short URL: <a id="result" href="" target="_blank"></a></p>
+        <p id="clickContainer">The short url has been utilized: <span id="clicks"></span> time(s)</p>
       </div>
       <div class="footer">
         <p>
           by <a href="http://www.freecodecamp.com">freeCodeCamp</a>
         </p>
       </div>
+     <script src="/public/app.js"></script>
    </body>
 
 
