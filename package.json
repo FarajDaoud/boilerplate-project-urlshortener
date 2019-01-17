@@ -11,14 +11,15 @@
 		"mongodb": "^2.2.5",
 		"mongoose": "^4.5.7",
 		"cors": "^2.8.1",
-		"body-parser": "^1.15.2"
+		"body-parser": "^1.15.2",
+    "shortid": "^2.2.14"
 	},
 	"engines": {
 		"node": "4.4.5"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://hyperdev.com/#!/project/welcome-project"
+		"url": "https://github.com/FarajDaoud/boilerplate-project-urlshortener"
 	},
 	"keywords": [
 		"node",
