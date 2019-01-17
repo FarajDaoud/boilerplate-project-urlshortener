@@ -1,5 +1,9 @@
 /****** Main Styling ******/
 
+#invalidURL {
+  display: none; 
+}
+
 body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
